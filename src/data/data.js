@@ -29,7 +29,7 @@ export const projects = [
   // Project 4()
   {
 
-    id: "project_6",
+    id: "project_4",
     img: "src/assets/projectThumnails/project_5.png",
     title: "Data Visualization",
     summery: "Scraped NBA player and team performance data using Python, cleaned and structured it with Pandas, and visualized key trends with Matplotlib. Leveraged statistical modeling to analyze player efficiency and team performance, enhancing predictive accuracy for game outcomes.",
@@ -47,7 +47,7 @@ export const projects = [
   },
   // Project 5()
   {
-    id: "project_7",
+    id: "project_5",
     img: "src/assets/projectThumnails/project_6.png",
     title: "Puglia Winery Case",
     summery: "Implemented Snowflake data warehouse for fast querying, developed ETL processes for data accuracy, and integrated Tableau/Power BI for interactive dashboards and advanced SQL analysis for actionable insights.",
@@ -58,7 +58,7 @@ export const projects = [
   },
   // Project 6()
   {
-    id: "project_9",
+    id: "project_6",
     img: "src/assets/projectThumnails/project_8.png",
     title: "Coupon Recommendation",
     summery: "Enhanced coupon recommendation accuracy by 15% through predictive modeling. Cleaned and preprocessed large datasets, reducing missing data by 20% and improving model performance by 25%. Analyzed user behavior and location data to optimize targeted promotions.",
