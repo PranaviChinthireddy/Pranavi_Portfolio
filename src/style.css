@@ -122,6 +122,9 @@ button {
   align-items: center;
   padding: 20px;
 }
+.scholarship_section{
+  background-color: var(--dark-900);
+}
 
 .scholarship-content {
   display: block; /* Display in block form so it takes only necessary space */
@@ -137,6 +140,42 @@ button {
 .scholarship-image {
   display: none; /* Hide the image as we don't need it for now */
 }
+
+/* Styling for Certification Section */
+.certifications-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;  /* Ensures responsiveness */
+}
+
+.cert-card {
+  background-color: var(--dark-900);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  width: 250px; /* Fixed width for uniformity */
+}
+
+.cert-card img {
+  width: 100%;  /* Makes all images take up full width */
+  height: 245px; /* Ensures uniform height */
+  object-fit: cover; /* Prevents distortion */
+  border-radius: 5px;
+}
+
+.cert-card p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.cert-card:hover {
+  transform: scale(1.05);
+}
+
 
 
 /* -------
